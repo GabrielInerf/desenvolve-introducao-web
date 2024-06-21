@@ -1,0 +1,54 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-image: url('https://th.bing.com/th/id/R.480852194bff77bdc03a317dfee054d1?rik=XDLdcau%2b4JRHkw&pid=ImgRaw&r=0');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: relative;
+}
+.img.header{
+    flex: 1;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    right: 10px;
+    bottom: 0;
+    margin: 0;
+    flex: 1;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+main { 
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 10px;    
+}
+
+aside {
+    flex: 1;
+    background-color: #eaeaea;
+    padding: 10px;
+}
+
+.referencias{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    flex: 1;
+    background-color: gray;
+    padding: 10px;
+}
+
